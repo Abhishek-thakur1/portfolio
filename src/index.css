@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    height: 500vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    height: 500vh;
+    width: 100vw;
+}
+
+.wrapper .container {
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    /* position: relative; */
+    will-change: transform;
+}
+
+.wrapper .container img {
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    background-position: center center;
+    background-size: cover;
+    visibility: hidden;
+}
+
+.wrapper .container .gradient-fade {
+    position: absolute;
+    
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(130, 254, 255, 0) 50%,
+            rgba(239, 255, 255, 0) 100%);
+}
+
+.wrapper .container .blur {
+    width: 49%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.045);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(7.8px);
+    border-right: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.title{
+    font-size: 3rem;
+    margin-top: 5rem;
+    color: white;
+    position: absolute;
+}
+
+canvas {
+  position: fixed;
+  z-index: -10;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: auto;
+}
