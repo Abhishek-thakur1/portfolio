@@ -16,6 +16,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- background image blurry section -->
         <div class="container">
             <img src="https://ik.imagekit.io/gwmjmoaowfjn/personal/dp_ouMjKRFx_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667915931513"
                 alt="Background Image" class="bg_image" />
@@ -23,8 +24,52 @@
             <div class="blur"></div>
 
         </div>
-        <h1 class="title">adjfhdhgfhdegfdegfhidhgfhug</h1>
+
+        <!-- different sections for name, description and intro -->
+        <div class="wrap-all">
+
+            <div class="section section01">
+                <p class="intro">Hi, I'm... <br> <span class="full_name glitch" data-text="Abhishek
+Thakur">Abhishek Thakur</span></p>
+                <p class="desc wrap center">A CS undergrad who is into full-stack development, distributed system. I love to work in Javascript environment. I like to explore new technologies and tools.</p>
+            </div>
+
+            <div class="section section2">
+                <div class="wrap center">
+                    <h2 class="lines">Full-Stack developer <span>+</span></h2>    
+                </div>
+            </div>
+
+            <div class="section section3">
+                <div class="wrap center">
+                    <h2 class="lines">Open source Contributor <span>+</span></h2>    
+                </div>
+            </div>
+
+            <div class="section section4">
+                <div class="wrap center">
+                    <h2 class="lines">Designer <span>+</span></h2>    
+                </div>
+            </div>
+        </div>
     </div>
+    <script src='https://bundle.run/css-scroll-snap-polyfill@0.1.2'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js'></script>
+
+<!-- <script>
+	const gra = function(min, max) {
+    return Math.random() * (max - min) + min;
+}
+const init = function(){
+	let items = document.querySelectorAll('.section');
+	for (let i = 0; i < items.length; i++){
+		items[i].style.background = randomColor({luminosity: 'light'});
+	}
+	cssScrollSnapPolyfill()
+}
+init();
+</script> -->
 
 </body>
 

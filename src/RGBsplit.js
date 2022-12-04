@@ -1,4 +1,5 @@
 import './index.css'
+// import './shake_effect.css'
 
 import * as THREE from "three";
 import vertexShader from "./shaders/vertesShader.glsl";
@@ -170,7 +171,7 @@ class MeshItem {
     this.mesh.scale.set(this.sizes.x, this.sizes.y, 1);
     this.uniforms.uOffset.value.set(
       this.offset.x * 0.0,
-      -(target - current) * 0.00035
+      -(target - current) * 0.0005
     );
   }
 }

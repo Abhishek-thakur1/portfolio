@@ -18,6 +18,8 @@
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.0",
     "css-loader": "^6.7.1",
+    "css-scroll-snap-polyfill": "^0.1.2",
+    "gsap": "^3.11.3",
     "html-webpack-plugin": "^5.5.0",
     "node-sass": "^8.0.0",
     "sass-loader": "^13.2.0",
