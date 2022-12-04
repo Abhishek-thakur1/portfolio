@@ -1,5 +1,5 @@
-import './index.css'
-// import './shake_effect.css'
+import './styles/index.css'
+import './styles/scroll_down.scss'
 
 import * as THREE from "three";
 import vertexShader from "./shaders/vertesShader.glsl";
