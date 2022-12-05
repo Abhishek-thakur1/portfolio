@@ -105,8 +105,8 @@ canvas {
 }
 
 .wrapper .wrap-all .section {
-    /* position: absolute; */
-    /* height: 100%; */
+    position: relative;
+    height: 100vh;
     width: 100vw;
     margin: 0rem auto;
     /* margin: 16rem 0rem 0rem 8.5rem; */
@@ -119,18 +119,10 @@ canvas {
 
 .wrapper .wrap-all .section2 {
     /* background-color: #ff0000; */
-    width: 100vw;
-    margin-left: 0rem;
-    margin-top: 0rem;
+
+    width: 100vw;   
 }
 
-.wrapper .wrap-all .section3 {
-    background-color: #00f4e8;
-}
-
-.wrapper .wrap-all .section4 {
-    background-color: #1900ff;
-}
 
 .wrapper .wrap-all .section01 .intro {
     font-size: 1.1rem;
