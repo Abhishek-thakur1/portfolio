@@ -27,52 +27,64 @@
 
         <!-- different sections for name, description and intro -->
         <div class="wrap-all">
-			<div class="scroll_down">
-				<div class="mouse"></div>
-				<p class="scroll_para">Scroll</p>
-			</div>
+            <div class="scroll_down">
+                <div class="mouse"></div>
+                <p class="scroll_para">Scroll</p>
+            </div>
             <div class="section section01">
                 <p class="intro">Hi, I'm... <br> <span class="full_name glitch" data-text="Abhishek
 Thakur">Abhishek Thakur</span></p>
-                <p class="desc wrap center">A CS undergrad who is into full-stack development, distributed system. I love to work in Javascript environment. I like to explore new technologies and tools.</p>
+                <p class="desc wrap center">A CS undergrad who is into full-stack development, distributed system. I
+                    love to work in Javascript environment. I like to explore new technologies and tools.</p>
             </div>
 
             <div class="section section2">
-                <div class="wrap center">
-                    <h2 class="lines">Full-Stack developer <span>+</span></h2>    
-                </div>
+                    <div class="bg-text-container">
+                        <div class="animate-text">
+                            <span class="bg_scroll">Open Source&nbsp;</span>
+                            <span class="bg_scroll">Open Source&nbsp;</span>
+                        </div>
+                        <div class="animate-text">
+                            <span class="bg_scroll left">Open Source&nbsp;</span>
+                            <span class="bg_scroll left">Open Source&nbsp;</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container1">
+                        <div class="col">
+                            <h1 class="section2_heading">Heading</h1>
+                            <p class="section2_para">Lobortis primis, ultrices? Earum mollis! Ad consequuntur laboriosam ut possimus, minus
+                                expedita, adipisci fermentum, officia maecenas voluptatibus eiusmod, laboriosam maiores
+                                aspernatur ad egestas tenetur tempora.</p>
+                        </div>
+                    </div>
             </div>
 
             <div class="section section3">
                 <div class="wrap center">
-                    <h2 class="lines">Open source Contributor <span>+</span></h2>    
+                    <h2 class="lines">Open source Contributor <span>+</span></h2>
                 </div>
             </div>
 
             <div class="section section4">
                 <div class="wrap center">
-                    <h2 class="lines">Designer <span>+</span></h2>    
+                    <h2 class="lines">Designer <span>+</span></h2>
                 </div>
             </div>
         </div>
     </div>
     <script src='https://bundle.run/css-scroll-snap-polyfill@0.1.2'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js'></script>
 
-<!-- <script>
-	const gra = function(min, max) {
-    return Math.random() * (max - min) + min;
-}
-const init = function(){
-	let items = document.querySelectorAll('.section');
-	for (let i = 0; i < items.length; i++){
-		items[i].style.background = randomColor({luminosity: 'light'});
-	}
-	cssScrollSnapPolyfill()
-}
-init();
-</script> -->
+    <script>
+	let parent = document.querySelectorAll('.animate-text');
+for(let i = 0; i < parent.length; i++) {
+  parent[i].style.width = parent[i].children[0].clientWidth + "px"; 
+};
+</script>
 
 </body>
 

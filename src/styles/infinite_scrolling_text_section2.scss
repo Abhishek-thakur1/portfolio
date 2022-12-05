@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:800,200);
+
+$font-size: 280px;
+$bg-color: #1e2134;
+$text-color: #51515152;
+
+
+
+.bg-text-container {
+    // transform: translateX(-50%);
+    // top: 50%;
+    margin-top: 5rem;
+    transform: skewY(-8deg);
+    position: absolute;
+    z-index: 90;
+}
+
+.animate-text {
+    animation: text-scrolling 20s linear infinite;
+    will-change: transform;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+
+    &.left {
+        animation-direction: reverse;
+    }
+
+
+}
+
+@keyframes text-scrolling {
+    0% {
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0%, 0, 0);
+    }
+}
+
+.bg_scroll {
+    font-size: $font-size;
+    color: transparent;
+    animation: text-scrolling 20s linear infinite;
+    -webkit-text-stroke: 2px $text-color;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 0.75;
+    min-width: auto;
+    font-weight: 800;
+}
+
+.left{
+    animation: text-scrolling 20s linear infinite;
+    animation-direction: reverse;
+}
+
+
+
+
+
+.container1 {
+    position: relative;
+    padding: 30px;
+    max-width: 1000px;
+    font-family: montserrat;
+    width: 100%;
+    margin: 15rem auto;
+    z-index: 100;
+
+    .col {
+        max-width: 600px;
+        margin: 0;
+    }
+}
+
+
+.section2_heading {
+    font-size: 90px;
+    margin: 0;
+}
+
+.section2_para {
+    font-size: 18px;
+    font-weight: 200;
+    margin: 0;
+}

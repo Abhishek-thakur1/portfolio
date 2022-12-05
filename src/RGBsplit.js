@@ -1,5 +1,6 @@
 import './styles/index.css'
 import './styles/scroll_down.scss'
+import './styles/infinite_scrolling_text_section2.scss'
 
 import * as THREE from "three";
 import vertexShader from "./shaders/vertesShader.glsl";
