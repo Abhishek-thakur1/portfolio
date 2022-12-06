@@ -117,13 +117,6 @@ canvas {
     position: relative;
 }
 
-.wrapper .wrap-all .section2 {
-    /* background-color: #ff0000; */
-
-    width: 100vw;   
-}
-
-
 .wrapper .wrap-all .section01 .intro {
     font-size: 1.1rem;
     font-weight: 500;
@@ -163,10 +156,83 @@ canvas {
     width: 40%;
 }
 
-/* .wrapper .wrap-all .wrap{
-    position: absolute;
+.wrapper .wrap-all .section3 {
+    font-size: 2.7rem;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    /* top: 30%; */
+}
+
+.wrapper .wrap-all .section3 .wrap_section3 {
+    position: relative;
+    top: 35%;
+    margin-left: 7rem;
+    width: 40%;
+    /* z-index: 100; */
+}
+/* .wrapper .wrap-all .section3 .wrap_section3 .lines{
+    z-index: 100;
 } */
 
+.wrapper .wrap-all .section3 .wrap_section3 .github_icon {
+    font-size: 21rem;
+    position: absolute;
+    top: -60%;
+    left: 5%;
+    color: #f400dc;
+    z-index: -90;
+    -webkit-animation: color-change 10s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% {
+        color: #ff0000;
+    }
+
+    5% {
+        color: #e80000;
+    }
+
+    10% {
+        color: #ffc906;
+    }
+
+    20% {
+        color: #06c6a0;
+    }
+
+    30% {
+        color: #a200d3;
+    }
+
+    40% {
+        color: #ff00e1;
+    }
+
+    50% {
+        color: #34495e;
+    }
+
+    60% {
+        color: #919192;
+    }
+
+    70% {
+        color: #e4f500;
+    }
+
+    80% {
+        color: #00ff1a;
+    }
+
+    90% {
+        color: #3b0024;
+    }
+
+    100% {
+        color: #f2f2f2;
+    }
+}
 
 
 
@@ -191,5 +257,21 @@ canvas {
         left: 1%;
         top: 50%;
         width: 90%;
+    }
+
+    .wrapper .wrap-all .section3 .wrap_section3{
+        font-size: 2rem;
+        top: 45%;
+        margin-left: -0.1rem;
+        width: 100%;
+    }
+
+    .wrapper .wrap-all .section3 .wrap_section3 .github_icon{
+        z-index: 10;
+        font-size: 18rem;
+        top: 10%;
+        left: 2%;
+        color: #4e4e4e2f;
+        animation: none;
     }
 }
