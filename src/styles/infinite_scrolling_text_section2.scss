@@ -51,7 +51,7 @@ $text-color: #0b48ff37;
     font-weight: 800;
 }
 
-.left{
+.left {
     animation: text-scrolling 20s linear infinite;
     animation-direction: reverse;
 }
@@ -92,19 +92,20 @@ $text-color: #0b48ff37;
     letter-spacing: 0.05rem;
     word-spacing: 0.06rem;
 }
-.stack{
+
+.stack {
     color: #eaff00cc;
     font-weight: 300;
     font-style: italic;
 }
 
-.tools{
+.tools {
     color: #eaff00cc;
     font-weight: 300;
     font-style: italic;
 }
 
-.dsa_link{
+.dsa_link {
     font-style: italic;
     color: #00aeffcc;
     text-decoration: none;
@@ -112,28 +113,31 @@ $text-color: #0b48ff37;
 
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+
     // .bg-text-container{
     //     margin-top: 7rem;
     // }
-    .bg_scroll{
+    .bg_scroll {
         font-size: 170px;
     }
-    .container1{
+
+    .container1 {
         top: 30%;
         left: -1.8rem;
         // margin: 0rem auto;
         // transform:translateY(-50%);
     }
+
     .section2_heading {
 
-    font-size: 50px;
-    margin: 0;
-}
+        font-size: 50px;
+        margin: 0;
+    }
 
-.section2_para {
-    font-size: 16px;
-    font-weight: 200;
-    margin-top: 1.8rem;
-}
+    .section2_para {
+        font-size: 16px;
+        font-weight: 200;
+        margin-top: 1.8rem;
+    }
 }

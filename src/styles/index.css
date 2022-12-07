@@ -170,6 +170,7 @@ canvas {
     width: 40%;
     /* z-index: 100; */
 }
+
 /* .wrapper .wrap-all .section3 .wrap_section3 .lines{
     z-index: 100;
 } */
@@ -235,6 +236,26 @@ canvas {
 }
 
 
+.wrapper .wrap-all .section4 {
+    font-size: 2.7rem;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+
+}
+
+.wrapper .wrap-all .section4 .wrap_section4 {
+    position: relative;
+    top: 35%;
+    margin-left: 7rem;
+    width: 40%;
+}
+
+.wrapper .wrap-all .section4 .wrap_section4 .desc_design {
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-top: 1.8rem;
+}
+
 
 @media only screen and (max-width: 768px) {
     .wrapper .wrap-all .section {
@@ -259,19 +280,31 @@ canvas {
         width: 90%;
     }
 
-    .wrapper .wrap-all .section3 .wrap_section3{
+    .wrapper .wrap-all .section3 .wrap_section3 {
         font-size: 2rem;
         top: 45%;
         margin-left: -0.1rem;
         width: 100%;
     }
 
-    .wrapper .wrap-all .section3 .wrap_section3 .github_icon{
+    .wrapper .wrap-all .section3 .wrap_section3 .github_icon {
         z-index: 10;
         font-size: 18rem;
         top: 10%;
         left: 2%;
         color: #4e4e4e2f;
         animation: none;
+    }
+
+    .wrapper .wrap-all .section4 .wrap_section4 {
+        margin-left: -0.1rem;
+        width: 100%;
+    }
+
+    .wrapper .wrap-all .section4 .wrap_section4 .desc_design {
+        font-size: 1.1rem;
+        font-weight: 200;
+        width: 90%;
+        margin-top: 1.6rem;
     }
 }
