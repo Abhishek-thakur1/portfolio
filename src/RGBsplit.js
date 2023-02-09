@@ -8,7 +8,7 @@ let current = 0;
 let target = 0;
 let ease = 0.045;
 
-// Linear inetepolation used for smooth scrolling and image offset uniform adjustment
+// Linear interpolation used for smooth scrolling and image offset uniform adjustment
 
 function lerp(start, end, t) {
   return start * (1 - t) + end * t;
